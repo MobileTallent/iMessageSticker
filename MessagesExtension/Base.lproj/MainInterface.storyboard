@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Messages View Controller-->
+        <scene sceneID="7MM-of-jgj">
+            <objects>
+                <viewController id="ObA-dk-sSI" customClass="MessagesViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qkL-Od-lgU"/>
+                        <viewControllerLayoutGuide type="bottom" id="n38-gi-rB5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zMn-AG-sqS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="528"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="0sI-kl-Dh6">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VFU-fs-I6q">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="Cell" reuseIdentifier="Cell" id="BA2-f4-DrO" customClass="CollectionViewCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vnV-in-bHv" customClass="MSStickerView">
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </view>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="vnV-in-bHv" firstAttribute="height" secondItem="BA2-f4-DrO" secondAttribute="height" id="Y6V-X3-VTE"/>
+                                            <constraint firstItem="vnV-in-bHv" firstAttribute="centerX" secondItem="BA2-f4-DrO" secondAttribute="centerX" id="cdG-Bv-Hgd"/>
+                                            <constraint firstItem="vnV-in-bHv" firstAttribute="centerY" secondItem="BA2-f4-DrO" secondAttribute="centerY" id="sel-WJ-Q7c"/>
+                                            <constraint firstItem="vnV-in-bHv" firstAttribute="width" secondItem="BA2-f4-DrO" secondAttribute="width" id="xM2-pE-MnW"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="stickerView" destination="vnV-in-bHv" id="fE0-Cy-6HU"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="ObA-dk-sSI" id="GWO-JD-J7S"/>
+                                    <outlet property="delegate" destination="ObA-dk-sSI" id="k6n-4h-Qc8"/>
+                                    <outlet property="prefetchDataSource" destination="ObA-dk-sSI" id="7yE-H0-3pp"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0sI-kl-Dh6" firstAttribute="centerX" secondItem="zMn-AG-sqS" secondAttribute="centerX" id="0Rg-MB-Znv"/>
+                            <constraint firstItem="0sI-kl-Dh6" firstAttribute="height" secondItem="zMn-AG-sqS" secondAttribute="height" id="Luf-I5-STz"/>
+                            <constraint firstItem="0sI-kl-Dh6" firstAttribute="width" secondItem="zMn-AG-sqS" secondAttribute="width" id="hYU-VM-aua"/>
+                            <constraint firstItem="0sI-kl-Dh6" firstAttribute="centerY" secondItem="zMn-AG-sqS" secondAttribute="centerY" id="rwU-D0-1FU"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="528"/>
+                    <connections>
+                        <outlet property="collectionView" destination="0sI-kl-Dh6" id="j43-RN-aIk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-170" y="112"/>
+        </scene>
+    </scenes>
+</document>

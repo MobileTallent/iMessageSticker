@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0AED3D1DC09F87001D7BB3 /* sticker_gif7.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E0AED3C1DC09F87001D7BB3 /* sticker_gif7.gif */; };
+		3E0AED3E1DC09F8B001D7BB3 /* sticker_gif7.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E0AED3C1DC09F87001D7BB3 /* sticker_gif7.gif */; };
+		3E6F75561DC4F10200D91BFD /* sticker_gif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F754E1DC4F10200D91BFD /* sticker_gif1.gif */; };
+		3E6F75571DC4F10200D91BFD /* sticker_gif2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F754F1DC4F10200D91BFD /* sticker_gif2.gif */; };
+		3E6F75581DC4F10200D91BFD /* sticker_gif3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F75501DC4F10200D91BFD /* sticker_gif3.gif */; };
+		3E6F75591DC4F10200D91BFD /* sticker_gif4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F75511DC4F10200D91BFD /* sticker_gif4.gif */; };
+		3E6F755A1DC4F10200D91BFD /* sticker_gif5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F75521DC4F10200D91BFD /* sticker_gif5.gif */; };
+		3E6F755B1DC4F10200D91BFD /* sticker_gif6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F75531DC4F10200D91BFD /* sticker_gif6.gif */; };
+		3E6F755D1DC4F10200D91BFD /* sticker_gif8.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F75551DC4F10200D91BFD /* sticker_gif8.gif */; };
+		3E6F755E1DC4F29800D91BFD /* sticker_gif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F754E1DC4F10200D91BFD /* sticker_gif1.gif */; };
+		3E6F755F1DC4F29800D91BFD /* sticker_gif2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F754F1DC4F10200D91BFD /* sticker_gif2.gif */; };
+		3E6F75601DC4F29800D91BFD /* sticker_gif3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F75501DC4F10200D91BFD /* sticker_gif3.gif */; };
+		3E6F75611DC4F29800D91BFD /* sticker_gif4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F75511DC4F10200D91BFD /* sticker_gif4.gif */; };
+		3E6F75621DC4F29800D91BFD /* sticker_gif5.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F75521DC4F10200D91BFD /* sticker_gif5.gif */; };
+		3E6F75631DC4F29800D91BFD /* sticker_gif6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F75531DC4F10200D91BFD /* sticker_gif6.gif */; };
+		3E6F75651DC4F29800D91BFD /* sticker_gif8.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3E6F75551DC4F10200D91BFD /* sticker_gif8.gif */; };
+		3EDB2AFB1DBAA6B5008A2B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2AFA1DBAA6B5008A2B51 /* Assets.xcassets */; };
+		3EDB2B021DBAA6B5008A2B51 /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3EDB2B011DBAA6B5008A2B51 /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3EDB2B071DBAA6B5008A2B51 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDB2B061DBAA6B5008A2B51 /* Messages.framework */; };
+		3EDB2B0B1DBAA6B5008A2B51 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB2B0A1DBAA6B5008A2B51 /* MessagesViewController.m */; };
+		3EDB2B0E1DBAA6B5008A2B51 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B0C1DBAA6B5008A2B51 /* MainInterface.storyboard */; };
+		3EDB2B101DBAA6B5008A2B51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B0F1DBAA6B5008A2B51 /* Assets.xcassets */; };
+		3EDB2B3C1DBAA6E0008A2B51 /* sticker1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B1C1DBAA6E0008A2B51 /* sticker1.png */; };
+		3EDB2B3D1DBAA6E0008A2B51 /* sticker10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B1D1DBAA6E0008A2B51 /* sticker10.png */; };
+		3EDB2B3E1DBAA6E0008A2B51 /* sticker11.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B1E1DBAA6E0008A2B51 /* sticker11.png */; };
+		3EDB2B3F1DBAA6E0008A2B51 /* sticker12.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B1F1DBAA6E0008A2B51 /* sticker12.png */; };
+		3EDB2B401DBAA6E0008A2B51 /* sticker13.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B201DBAA6E0008A2B51 /* sticker13.png */; };
+		3EDB2B411DBAA6E0008A2B51 /* sticker14.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B211DBAA6E0008A2B51 /* sticker14.png */; };
+		3EDB2B421DBAA6E0008A2B51 /* sticker15.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B221DBAA6E0008A2B51 /* sticker15.png */; };
+		3EDB2B431DBAA6E0008A2B51 /* sticker16.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B231DBAA6E0008A2B51 /* sticker16.png */; };
+		3EDB2B441DBAA6E0008A2B51 /* sticker17.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B241DBAA6E0008A2B51 /* sticker17.png */; };
+		3EDB2B451DBAA6E0008A2B51 /* sticker18.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B251DBAA6E0008A2B51 /* sticker18.png */; };
+		3EDB2B461DBAA6E0008A2B51 /* sticker19.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B261DBAA6E0008A2B51 /* sticker19.png */; };
+		3EDB2B471DBAA6E0008A2B51 /* sticker2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B271DBAA6E0008A2B51 /* sticker2.png */; };
+		3EDB2B481DBAA6E0008A2B51 /* sticker20.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B281DBAA6E0008A2B51 /* sticker20.png */; };
+		3EDB2B491DBAA6E0008A2B51 /* sticker21.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B291DBAA6E0008A2B51 /* sticker21.png */; };
+		3EDB2B4A1DBAA6E0008A2B51 /* sticker22.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B2A1DBAA6E0008A2B51 /* sticker22.png */; };
+		3EDB2B4B1DBAA6E0008A2B51 /* sticker23.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B2B1DBAA6E0008A2B51 /* sticker23.png */; };
+		3EDB2B4C1DBAA6E0008A2B51 /* sticker24.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B2C1DBAA6E0008A2B51 /* sticker24.png */; };
+		3EDB2B4D1DBAA6E0008A2B51 /* sticker25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B2D1DBAA6E0008A2B51 /* sticker25.png */; };
+		3EDB2B4E1DBAA6E0008A2B51 /* sticker26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B2E1DBAA6E0008A2B51 /* sticker26.png */; };
+		3EDB2B4F1DBAA6E0008A2B51 /* sticker27.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B2F1DBAA6E0008A2B51 /* sticker27.png */; };
+		3EDB2B501DBAA6E0008A2B51 /* sticker28.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B301DBAA6E0008A2B51 /* sticker28.png */; };
+		3EDB2B511DBAA6E0008A2B51 /* sticker29.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B311DBAA6E0008A2B51 /* sticker29.png */; };
+		3EDB2B521DBAA6E0008A2B51 /* sticker3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B321DBAA6E0008A2B51 /* sticker3.png */; };
+		3EDB2B531DBAA6E0008A2B51 /* sticker30.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B331DBAA6E0008A2B51 /* sticker30.png */; };
+		3EDB2B541DBAA6E0008A2B51 /* sticker31.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B341DBAA6E0008A2B51 /* sticker31.png */; };
+		3EDB2B551DBAA6E0008A2B51 /* sticker32.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B351DBAA6E0008A2B51 /* sticker32.png */; };
+		3EDB2B561DBAA6E0008A2B51 /* sticker4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B361DBAA6E0008A2B51 /* sticker4.png */; };
+		3EDB2B571DBAA6E0008A2B51 /* sticker5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B371DBAA6E0008A2B51 /* sticker5.png */; };
+		3EDB2B581DBAA6E0008A2B51 /* sticker6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B381DBAA6E0008A2B51 /* sticker6.png */; };
+		3EDB2B591DBAA6E0008A2B51 /* sticker7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B391DBAA6E0008A2B51 /* sticker7.png */; };
+		3EDB2B5A1DBAA6E0008A2B51 /* sticker8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B3A1DBAA6E0008A2B51 /* sticker8.png */; };
+		3EDB2B5B1DBAA6E0008A2B51 /* sticker9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B3B1DBAA6E0008A2B51 /* sticker9.png */; };
+		3EDB2B781DBAB903008A2B51 /* utilitylist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B771DBAB903008A2B51 /* utilitylist.plist */; };
+		3EDB2B7B1DBAB94F008A2B51 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB2B7A1DBAB94F008A2B51 /* CollectionViewCell.m */; };
+		3EDB2B7C1DBAB9C8008A2B51 /* sticker1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B1C1DBAA6E0008A2B51 /* sticker1.png */; };
+		3EDB2B7D1DBAB9C8008A2B51 /* sticker10.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B1D1DBAA6E0008A2B51 /* sticker10.png */; };
+		3EDB2B7E1DBAB9C8008A2B51 /* sticker11.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B1E1DBAA6E0008A2B51 /* sticker11.png */; };
+		3EDB2B7F1DBAB9C8008A2B51 /* sticker12.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B1F1DBAA6E0008A2B51 /* sticker12.png */; };
+		3EDB2B801DBAB9C8008A2B51 /* sticker13.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B201DBAA6E0008A2B51 /* sticker13.png */; };
+		3EDB2B811DBAB9C8008A2B51 /* sticker14.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B211DBAA6E0008A2B51 /* sticker14.png */; };
+		3EDB2B821DBAB9C8008A2B51 /* sticker15.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B221DBAA6E0008A2B51 /* sticker15.png */; };
+		3EDB2B831DBAB9C8008A2B51 /* sticker16.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B231DBAA6E0008A2B51 /* sticker16.png */; };
+		3EDB2B841DBAB9C8008A2B51 /* sticker17.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B241DBAA6E0008A2B51 /* sticker17.png */; };
+		3EDB2B851DBAB9C8008A2B51 /* sticker18.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B251DBAA6E0008A2B51 /* sticker18.png */; };
+		3EDB2B861DBAB9C8008A2B51 /* sticker19.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B261DBAA6E0008A2B51 /* sticker19.png */; };
+		3EDB2B871DBAB9C8008A2B51 /* sticker2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B271DBAA6E0008A2B51 /* sticker2.png */; };
+		3EDB2B881DBAB9C8008A2B51 /* sticker20.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B281DBAA6E0008A2B51 /* sticker20.png */; };
+		3EDB2B891DBAB9C8008A2B51 /* sticker21.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B291DBAA6E0008A2B51 /* sticker21.png */; };
+		3EDB2B8A1DBAB9C8008A2B51 /* sticker22.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B2A1DBAA6E0008A2B51 /* sticker22.png */; };
+		3EDB2B8B1DBAB9C8008A2B51 /* sticker23.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B2B1DBAA6E0008A2B51 /* sticker23.png */; };
+		3EDB2B8C1DBAB9C8008A2B51 /* sticker24.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B2C1DBAA6E0008A2B51 /* sticker24.png */; };
+		3EDB2B8D1DBAB9C8008A2B51 /* sticker25.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B2D1DBAA6E0008A2B51 /* sticker25.png */; };
+		3EDB2B8E1DBAB9C8008A2B51 /* sticker26.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B2E1DBAA6E0008A2B51 /* sticker26.png */; };
+		3EDB2B8F1DBAB9C8008A2B51 /* sticker27.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B2F1DBAA6E0008A2B51 /* sticker27.png */; };
+		3EDB2B901DBAB9C8008A2B51 /* sticker28.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B301DBAA6E0008A2B51 /* sticker28.png */; };
+		3EDB2B911DBAB9C8008A2B51 /* sticker29.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B311DBAA6E0008A2B51 /* sticker29.png */; };
+		3EDB2B921DBAB9C8008A2B51 /* sticker3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B321DBAA6E0008A2B51 /* sticker3.png */; };
+		3EDB2B931DBAB9C8008A2B51 /* sticker30.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B331DBAA6E0008A2B51 /* sticker30.png */; };
+		3EDB2B941DBAB9C8008A2B51 /* sticker31.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B341DBAA6E0008A2B51 /* sticker31.png */; };
+		3EDB2B951DBAB9C8008A2B51 /* sticker32.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B351DBAA6E0008A2B51 /* sticker32.png */; };
+		3EDB2B961DBAB9C8008A2B51 /* sticker4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B361DBAA6E0008A2B51 /* sticker4.png */; };
+		3EDB2B971DBAB9C8008A2B51 /* sticker5.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B371DBAA6E0008A2B51 /* sticker5.png */; };
+		3EDB2B981DBAB9C8008A2B51 /* sticker6.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B381DBAA6E0008A2B51 /* sticker6.png */; };
+		3EDB2B991DBAB9C8008A2B51 /* sticker7.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B391DBAA6E0008A2B51 /* sticker7.png */; };
+		3EDB2B9A1DBAB9C8008A2B51 /* sticker8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B3A1DBAA6E0008A2B51 /* sticker8.png */; };
+		3EDB2B9B1DBAB9C8008A2B51 /* sticker9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDB2B3B1DBAA6E0008A2B51 /* sticker9.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EDB2B031DBAA6B5008A2B51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EDB2AF11DBAA6B5008A2B51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EDB2B001DBAA6B5008A2B51;
+			remoteInfo = MessagesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3EDB2B171DBAA6B5008A2B51 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3EDB2B021DBAA6B5008A2B51 /* MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E0AED3C1DC09F87001D7BB3 /* sticker_gif7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sticker_gif7.gif; sourceTree = "<group>"; };
+		3E6F754E1DC4F10200D91BFD /* sticker_gif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sticker_gif1.gif; sourceTree = "<group>"; };
+		3E6F754F1DC4F10200D91BFD /* sticker_gif2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sticker_gif2.gif; sourceTree = "<group>"; };
+		3E6F75501DC4F10200D91BFD /* sticker_gif3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sticker_gif3.gif; sourceTree = "<group>"; };
+		3E6F75511DC4F10200D91BFD /* sticker_gif4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sticker_gif4.gif; sourceTree = "<group>"; };
+		3E6F75521DC4F10200D91BFD /* sticker_gif5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sticker_gif5.gif; sourceTree = "<group>"; };
+		3E6F75531DC4F10200D91BFD /* sticker_gif6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sticker_gif6.gif; sourceTree = "<group>"; };
+		3E6F75551DC4F10200D91BFD /* sticker_gif8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sticker_gif8.gif; sourceTree = "<group>"; };
+		3EDB2AF71DBAA6B5008A2B51 /* NewStickerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewStickerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDB2AFA1DBAA6B5008A2B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EDB2AFC1DBAA6B5008A2B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDB2B011DBAA6B5008A2B51 /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDB2B061DBAA6B5008A2B51 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		3EDB2B091DBAA6B5008A2B51 /* MessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		3EDB2B0A1DBAA6B5008A2B51 /* MessagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		3EDB2B0D1DBAA6B5008A2B51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		3EDB2B0F1DBAA6B5008A2B51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EDB2B111DBAA6B5008A2B51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EDB2B1C1DBAA6E0008A2B51 /* sticker1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker1.png; sourceTree = "<group>"; };
+		3EDB2B1D1DBAA6E0008A2B51 /* sticker10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker10.png; sourceTree = "<group>"; };
+		3EDB2B1E1DBAA6E0008A2B51 /* sticker11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker11.png; sourceTree = "<group>"; };
+		3EDB2B1F1DBAA6E0008A2B51 /* sticker12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker12.png; sourceTree = "<group>"; };
+		3EDB2B201DBAA6E0008A2B51 /* sticker13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker13.png; sourceTree = "<group>"; };
+		3EDB2B211DBAA6E0008A2B51 /* sticker14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker14.png; sourceTree = "<group>"; };
+		3EDB2B221DBAA6E0008A2B51 /* sticker15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker15.png; sourceTree = "<group>"; };
+		3EDB2B231DBAA6E0008A2B51 /* sticker16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker16.png; sourceTree = "<group>"; };
+		3EDB2B241DBAA6E0008A2B51 /* sticker17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker17.png; sourceTree = "<group>"; };
+		3EDB2B251DBAA6E0008A2B51 /* sticker18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker18.png; sourceTree = "<group>"; };
+		3EDB2B261DBAA6E0008A2B51 /* sticker19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker19.png; sourceTree = "<group>"; };
+		3EDB2B271DBAA6E0008A2B51 /* sticker2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker2.png; sourceTree = "<group>"; };
+		3EDB2B281DBAA6E0008A2B51 /* sticker20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker20.png; sourceTree = "<group>"; };
+		3EDB2B291DBAA6E0008A2B51 /* sticker21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker21.png; sourceTree = "<group>"; };
+		3EDB2B2A1DBAA6E0008A2B51 /* sticker22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker22.png; sourceTree = "<group>"; };
+		3EDB2B2B1DBAA6E0008A2B51 /* sticker23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker23.png; sourceTree = "<group>"; };
+		3EDB2B2C1DBAA6E0008A2B51 /* sticker24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker24.png; sourceTree = "<group>"; };
+		3EDB2B2D1DBAA6E0008A2B51 /* sticker25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker25.png; sourceTree = "<group>"; };
+		3EDB2B2E1DBAA6E0008A2B51 /* sticker26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker26.png; sourceTree = "<group>"; };
+		3EDB2B2F1DBAA6E0008A2B51 /* sticker27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker27.png; sourceTree = "<group>"; };
+		3EDB2B301DBAA6E0008A2B51 /* sticker28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker28.png; sourceTree = "<group>"; };
+		3EDB2B311DBAA6E0008A2B51 /* sticker29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker29.png; sourceTree = "<group>"; };
+		3EDB2B321DBAA6E0008A2B51 /* sticker3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker3.png; sourceTree = "<group>"; };
+		3EDB2B331DBAA6E0008A2B51 /* sticker30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker30.png; sourceTree = "<group>"; };
+		3EDB2B341DBAA6E0008A2B51 /* sticker31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker31.png; sourceTree = "<group>"; };
+		3EDB2B351DBAA6E0008A2B51 /* sticker32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker32.png; sourceTree = "<group>"; };
+		3EDB2B361DBAA6E0008A2B51 /* sticker4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker4.png; sourceTree = "<group>"; };
+		3EDB2B371DBAA6E0008A2B51 /* sticker5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker5.png; sourceTree = "<group>"; };
+		3EDB2B381DBAA6E0008A2B51 /* sticker6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker6.png; sourceTree = "<group>"; };
+		3EDB2B391DBAA6E0008A2B51 /* sticker7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker7.png; sourceTree = "<group>"; };
+		3EDB2B3A1DBAA6E0008A2B51 /* sticker8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker8.png; sourceTree = "<group>"; };
+		3EDB2B3B1DBAA6E0008A2B51 /* sticker9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker9.png; sourceTree = "<group>"; };
+		3EDB2B771DBAB903008A2B51 /* utilitylist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = utilitylist.plist; path = MessagesExtension/utilitylist.plist; sourceTree = "<group>"; };
+		3EDB2B791DBAB94F008A2B51 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectionViewCell.h; path = MessagesExtension/CollectionViewCell.h; sourceTree = "<group>"; };
+		3EDB2B7A1DBAB94F008A2B51 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectionViewCell.m; path = MessagesExtension/CollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EDB2AFE1DBAA6B5008A2B51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDB2B071DBAA6B5008A2B51 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EDB2AF01DBAA6B5008A2B51 = {
+			isa = PBXGroup;
+			children = (
+				3EDB2AF91DBAA6B5008A2B51 /* NewStickerApp */,
+				3EDB2B081DBAA6B5008A2B51 /* MessagesExtension */,
+				3EDB2B9C1DBAC7CB008A2B51 /* ViewController */,
+				3EDB2B9D1DBAC80F008A2B51 /* Data_plist */,
+				3EDB2B1B1DBAA6E0008A2B51 /* sticker images */,
+				3EDB2B051DBAA6B5008A2B51 /* Frameworks */,
+				3EDB2AF81DBAA6B5008A2B51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EDB2AF81DBAA6B5008A2B51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB2AF71DBAA6B5008A2B51 /* NewStickerApp.app */,
+				3EDB2B011DBAA6B5008A2B51 /* MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EDB2AF91DBAA6B5008A2B51 /* NewStickerApp */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB2AFA1DBAA6B5008A2B51 /* Assets.xcassets */,
+				3EDB2AFC1DBAA6B5008A2B51 /* Info.plist */,
+			);
+			path = NewStickerApp;
+			sourceTree = "<group>";
+		};
+		3EDB2B051DBAA6B5008A2B51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB2B061DBAA6B5008A2B51 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EDB2B081DBAA6B5008A2B51 /* MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB2B091DBAA6B5008A2B51 /* MessagesViewController.h */,
+				3EDB2B0A1DBAA6B5008A2B51 /* MessagesViewController.m */,
+				3EDB2B0C1DBAA6B5008A2B51 /* MainInterface.storyboard */,
+				3EDB2B0F1DBAA6B5008A2B51 /* Assets.xcassets */,
+				3EDB2B111DBAA6B5008A2B51 /* Info.plist */,
+			);
+			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+		3EDB2B1B1DBAA6E0008A2B51 /* sticker images */ = {
+			isa = PBXGroup;
+			children = (
+				3E6F754E1DC4F10200D91BFD /* sticker_gif1.gif */,
+				3E6F754F1DC4F10200D91BFD /* sticker_gif2.gif */,
+				3E6F75501DC4F10200D91BFD /* sticker_gif3.gif */,
+				3E6F75511DC4F10200D91BFD /* sticker_gif4.gif */,
+				3E6F75521DC4F10200D91BFD /* sticker_gif5.gif */,
+				3E6F75531DC4F10200D91BFD /* sticker_gif6.gif */,
+				3E6F75551DC4F10200D91BFD /* sticker_gif8.gif */,
+				3E0AED3C1DC09F87001D7BB3 /* sticker_gif7.gif */,
+				3EDB2B1C1DBAA6E0008A2B51 /* sticker1.png */,
+				3EDB2B1D1DBAA6E0008A2B51 /* sticker10.png */,
+				3EDB2B1E1DBAA6E0008A2B51 /* sticker11.png */,
+				3EDB2B1F1DBAA6E0008A2B51 /* sticker12.png */,
+				3EDB2B201DBAA6E0008A2B51 /* sticker13.png */,
+				3EDB2B211DBAA6E0008A2B51 /* sticker14.png */,
+				3EDB2B221DBAA6E0008A2B51 /* sticker15.png */,
+				3EDB2B231DBAA6E0008A2B51 /* sticker16.png */,
+				3EDB2B241DBAA6E0008A2B51 /* sticker17.png */,
+				3EDB2B251DBAA6E0008A2B51 /* sticker18.png */,
+				3EDB2B261DBAA6E0008A2B51 /* sticker19.png */,
+				3EDB2B271DBAA6E0008A2B51 /* sticker2.png */,
+				3EDB2B281DBAA6E0008A2B51 /* sticker20.png */,
+				3EDB2B291DBAA6E0008A2B51 /* sticker21.png */,
+				3EDB2B2A1DBAA6E0008A2B51 /* sticker22.png */,
+				3EDB2B2B1DBAA6E0008A2B51 /* sticker23.png */,
+				3EDB2B2C1DBAA6E0008A2B51 /* sticker24.png */,
+				3EDB2B2D1DBAA6E0008A2B51 /* sticker25.png */,
+				3EDB2B2E1DBAA6E0008A2B51 /* sticker26.png */,
+				3EDB2B2F1DBAA6E0008A2B51 /* sticker27.png */,
+				3EDB2B301DBAA6E0008A2B51 /* sticker28.png */,
+				3EDB2B311DBAA6E0008A2B51 /* sticker29.png */,
+				3EDB2B321DBAA6E0008A2B51 /* sticker3.png */,
+				3EDB2B331DBAA6E0008A2B51 /* sticker30.png */,
+				3EDB2B341DBAA6E0008A2B51 /* sticker31.png */,
+				3EDB2B351DBAA6E0008A2B51 /* sticker32.png */,
+				3EDB2B361DBAA6E0008A2B51 /* sticker4.png */,
+				3EDB2B371DBAA6E0008A2B51 /* sticker5.png */,
+				3EDB2B381DBAA6E0008A2B51 /* sticker6.png */,
+				3EDB2B391DBAA6E0008A2B51 /* sticker7.png */,
+				3EDB2B3A1DBAA6E0008A2B51 /* sticker8.png */,
+				3EDB2B3B1DBAA6E0008A2B51 /* sticker9.png */,
+			);
+			name = "sticker images";
+			path = "New sticker images";
+			sourceTree = "<group>";
+		};
+		3EDB2B9C1DBAC7CB008A2B51 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB2B791DBAB94F008A2B51 /* CollectionViewCell.h */,
+				3EDB2B7A1DBAB94F008A2B51 /* CollectionViewCell.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		3EDB2B9D1DBAC80F008A2B51 /* Data_plist */ = {
+			isa = PBXGroup;
+			children = (
+				3EDB2B771DBAB903008A2B51 /* utilitylist.plist */,
+			);
+			name = Data_plist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EDB2AF61DBAA6B5008A2B51 /* NewStickerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDB2B181DBAA6B5008A2B51 /* Build configuration list for PBXNativeTarget "NewStickerApp" */;
+			buildPhases = (
+				3EDB2AF51DBAA6B5008A2B51 /* Resources */,
+				3EDB2B171DBAA6B5008A2B51 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EDB2B041DBAA6B5008A2B51 /* PBXTargetDependency */,
+			);
+			name = NewStickerApp;
+			productName = NewStickerApp;
+			productReference = 3EDB2AF71DBAA6B5008A2B51 /* NewStickerApp.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		3EDB2B001DBAA6B5008A2B51 /* MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EDB2B141DBAA6B5008A2B51 /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
+			buildPhases = (
+				3EDB2AFD1DBAA6B5008A2B51 /* Sources */,
+				3EDB2AFE1DBAA6B5008A2B51 /* Frameworks */,
+				3EDB2AFF1DBAA6B5008A2B51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagesExtension;
+			productName = MessagesExtension;
+			productReference = 3EDB2B011DBAA6B5008A2B51 /* MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EDB2AF11DBAA6B5008A2B51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					3EDB2AF61DBAA6B5008A2B51 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9K46KF6MKH;
+						ProvisioningStyle = Manual;
+					};
+					3EDB2B001DBAA6B5008A2B51 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9K46KF6MKH;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 3EDB2AF41DBAA6B5008A2B51 /* Build configuration list for PBXProject "NewStickerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EDB2AF01DBAA6B5008A2B51;
+			productRefGroup = 3EDB2AF81DBAA6B5008A2B51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EDB2AF61DBAA6B5008A2B51 /* NewStickerApp */,
+				3EDB2B001DBAA6B5008A2B51 /* MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EDB2AF51DBAA6B5008A2B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6F755D1DC4F10200D91BFD /* sticker_gif8.gif in Resources */,
+				3E6F75571DC4F10200D91BFD /* sticker_gif2.gif in Resources */,
+				3EDB2AFB1DBAA6B5008A2B51 /* Assets.xcassets in Resources */,
+				3EDB2B441DBAA6E0008A2B51 /* sticker17.png in Resources */,
+				3EDB2B3F1DBAA6E0008A2B51 /* sticker12.png in Resources */,
+				3EDB2B4D1DBAA6E0008A2B51 /* sticker25.png in Resources */,
+				3EDB2B451DBAA6E0008A2B51 /* sticker18.png in Resources */,
+				3EDB2B531DBAA6E0008A2B51 /* sticker30.png in Resources */,
+				3EDB2B431DBAA6E0008A2B51 /* sticker16.png in Resources */,
+				3EDB2B541DBAA6E0008A2B51 /* sticker31.png in Resources */,
+				3EDB2B561DBAA6E0008A2B51 /* sticker4.png in Resources */,
+				3E6F75591DC4F10200D91BFD /* sticker_gif4.gif in Resources */,
+				3EDB2B4C1DBAA6E0008A2B51 /* sticker24.png in Resources */,
+				3EDB2B471DBAA6E0008A2B51 /* sticker2.png in Resources */,
+				3EDB2B3C1DBAA6E0008A2B51 /* sticker1.png in Resources */,
+				3EDB2B5A1DBAA6E0008A2B51 /* sticker8.png in Resources */,
+				3EDB2B421DBAA6E0008A2B51 /* sticker15.png in Resources */,
+				3EDB2B491DBAA6E0008A2B51 /* sticker21.png in Resources */,
+				3E0AED3D1DC09F87001D7BB3 /* sticker_gif7.gif in Resources */,
+				3EDB2B571DBAA6E0008A2B51 /* sticker5.png in Resources */,
+				3EDB2B501DBAA6E0008A2B51 /* sticker28.png in Resources */,
+				3EDB2B4A1DBAA6E0008A2B51 /* sticker22.png in Resources */,
+				3EDB2B3D1DBAA6E0008A2B51 /* sticker10.png in Resources */,
+				3EDB2B4E1DBAA6E0008A2B51 /* sticker26.png in Resources */,
+				3E6F75561DC4F10200D91BFD /* sticker_gif1.gif in Resources */,
+				3E6F755A1DC4F10200D91BFD /* sticker_gif5.gif in Resources */,
+				3EDB2B551DBAA6E0008A2B51 /* sticker32.png in Resources */,
+				3EDB2B521DBAA6E0008A2B51 /* sticker3.png in Resources */,
+				3EDB2B411DBAA6E0008A2B51 /* sticker14.png in Resources */,
+				3E6F75581DC4F10200D91BFD /* sticker_gif3.gif in Resources */,
+				3EDB2B3E1DBAA6E0008A2B51 /* sticker11.png in Resources */,
+				3EDB2B5B1DBAA6E0008A2B51 /* sticker9.png in Resources */,
+				3EDB2B591DBAA6E0008A2B51 /* sticker7.png in Resources */,
+				3EDB2B401DBAA6E0008A2B51 /* sticker13.png in Resources */,
+				3EDB2B581DBAA6E0008A2B51 /* sticker6.png in Resources */,
+				3EDB2B461DBAA6E0008A2B51 /* sticker19.png in Resources */,
+				3EDB2B481DBAA6E0008A2B51 /* sticker20.png in Resources */,
+				3E6F755B1DC4F10200D91BFD /* sticker_gif6.gif in Resources */,
+				3EDB2B4B1DBAA6E0008A2B51 /* sticker23.png in Resources */,
+				3EDB2B4F1DBAA6E0008A2B51 /* sticker27.png in Resources */,
+				3EDB2B511DBAA6E0008A2B51 /* sticker29.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EDB2AFF1DBAA6B5008A2B51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDB2B7D1DBAB9C8008A2B51 /* sticker10.png in Resources */,
+				3EDB2B951DBAB9C8008A2B51 /* sticker32.png in Resources */,
+				3EDB2B8E1DBAB9C8008A2B51 /* sticker26.png in Resources */,
+				3EDB2B931DBAB9C8008A2B51 /* sticker30.png in Resources */,
+				3EDB2B851DBAB9C8008A2B51 /* sticker18.png in Resources */,
+				3EDB2B801DBAB9C8008A2B51 /* sticker13.png in Resources */,
+				3EDB2B781DBAB903008A2B51 /* utilitylist.plist in Resources */,
+				3EDB2B7C1DBAB9C8008A2B51 /* sticker1.png in Resources */,
+				3E6F75621DC4F29800D91BFD /* sticker_gif5.gif in Resources */,
+				3EDB2B831DBAB9C8008A2B51 /* sticker16.png in Resources */,
+				3EDB2B9B1DBAB9C8008A2B51 /* sticker9.png in Resources */,
+				3E6F755F1DC4F29800D91BFD /* sticker_gif2.gif in Resources */,
+				3E6F75631DC4F29800D91BFD /* sticker_gif6.gif in Resources */,
+				3E0AED3E1DC09F8B001D7BB3 /* sticker_gif7.gif in Resources */,
+				3EDB2B841DBAB9C8008A2B51 /* sticker17.png in Resources */,
+				3EDB2B981DBAB9C8008A2B51 /* sticker6.png in Resources */,
+				3EDB2B8C1DBAB9C8008A2B51 /* sticker24.png in Resources */,
+				3EDB2B991DBAB9C8008A2B51 /* sticker7.png in Resources */,
+				3EDB2B8D1DBAB9C8008A2B51 /* sticker25.png in Resources */,
+				3EDB2B881DBAB9C8008A2B51 /* sticker20.png in Resources */,
+				3EDB2B101DBAA6B5008A2B51 /* Assets.xcassets in Resources */,
+				3EDB2B911DBAB9C8008A2B51 /* sticker29.png in Resources */,
+				3EDB2B821DBAB9C8008A2B51 /* sticker15.png in Resources */,
+				3EDB2B871DBAB9C8008A2B51 /* sticker2.png in Resources */,
+				3EDB2B811DBAB9C8008A2B51 /* sticker14.png in Resources */,
+				3EDB2B971DBAB9C8008A2B51 /* sticker5.png in Resources */,
+				3EDB2B941DBAB9C8008A2B51 /* sticker31.png in Resources */,
+				3EDB2B8F1DBAB9C8008A2B51 /* sticker27.png in Resources */,
+				3E6F75611DC4F29800D91BFD /* sticker_gif4.gif in Resources */,
+				3EDB2B8B1DBAB9C8008A2B51 /* sticker23.png in Resources */,
+				3EDB2B0E1DBAA6B5008A2B51 /* MainInterface.storyboard in Resources */,
+				3EDB2B921DBAB9C8008A2B51 /* sticker3.png in Resources */,
+				3EDB2B7E1DBAB9C8008A2B51 /* sticker11.png in Resources */,
+				3E6F75651DC4F29800D91BFD /* sticker_gif8.gif in Resources */,
+				3EDB2B961DBAB9C8008A2B51 /* sticker4.png in Resources */,
+				3EDB2B891DBAB9C8008A2B51 /* sticker21.png in Resources */,
+				3E6F755E1DC4F29800D91BFD /* sticker_gif1.gif in Resources */,
+				3E6F75601DC4F29800D91BFD /* sticker_gif3.gif in Resources */,
+				3EDB2B7F1DBAB9C8008A2B51 /* sticker12.png in Resources */,
+				3EDB2B9A1DBAB9C8008A2B51 /* sticker8.png in Resources */,
+				3EDB2B861DBAB9C8008A2B51 /* sticker19.png in Resources */,
+				3EDB2B8A1DBAB9C8008A2B51 /* sticker22.png in Resources */,
+				3EDB2B901DBAB9C8008A2B51 /* sticker28.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EDB2AFD1DBAA6B5008A2B51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EDB2B7B1DBAB94F008A2B51 /* CollectionViewCell.m in Sources */,
+				3EDB2B0B1DBAA6B5008A2B51 /* MessagesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EDB2B041DBAA6B5008A2B51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EDB2B001DBAA6B5008A2B51 /* MessagesExtension */;
+			targetProxy = 3EDB2B031DBAA6B5008A2B51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EDB2B0C1DBAA6B5008A2B51 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EDB2B0D1DBAA6B5008A2B51 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EDB2B121DBAA6B5008A2B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Boris Kozlov (9V85A9N7ZH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Boris Kozlov (9V85A9N7ZH)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EDB2B131DBAA6B5008A2B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Boris Kozlov (9V85A9N7ZH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Boris Kozlov (9V85A9N7ZH)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EDB2B151DBAA6B5008A2B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Creative App Development Limited (9K46KF6MKH)";
+				DEVELOPMENT_TEAM = 9K46KF6MKH;
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewStickerApp.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a15c571a-f489-46cf-8c64-35deb07bb4f1";
+				PROVISIONING_PROFILE_SPECIFIER = StickerExtension_appstore;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3EDB2B161DBAA6B5008A2B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Creative App Development Limited (9K46KF6MKH)";
+				DEVELOPMENT_TEAM = 9K46KF6MKH;
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewStickerApp.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a15c571a-f489-46cf-8c64-35deb07bb4f1";
+				PROVISIONING_PROFILE_SPECIFIER = StickerExtension_appstore;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3EDB2B191DBAA6B5008A2B51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Creative App Development Limited (9K46KF6MKH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Creative App Development Limited (9K46KF6MKH)";
+				DEVELOPMENT_TEAM = 9K46KF6MKH;
+				INFOPLIST_FILE = NewStickerApp/Info.plist;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewStickerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f817050c-97c5-433a-b48b-e1abc281a2c8";
+				PROVISIONING_PROFILE_SPECIFIER = Sticker_appstore;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EDB2B1A1DBAA6B5008A2B51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Creative App Development Limited (9K46KF6MKH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Creative App Development Limited (9K46KF6MKH)";
+				DEVELOPMENT_TEAM = 9K46KF6MKH;
+				INFOPLIST_FILE = NewStickerApp/Info.plist;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewStickerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f817050c-97c5-433a-b48b-e1abc281a2c8";
+				PROVISIONING_PROFILE_SPECIFIER = Sticker_appstore;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EDB2AF41DBAA6B5008A2B51 /* Build configuration list for PBXProject "NewStickerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDB2B121DBAA6B5008A2B51 /* Debug */,
+				3EDB2B131DBAA6B5008A2B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDB2B141DBAA6B5008A2B51 /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDB2B151DBAA6B5008A2B51 /* Debug */,
+				3EDB2B161DBAA6B5008A2B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EDB2B181DBAA6B5008A2B51 /* Build configuration list for PBXNativeTarget "NewStickerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EDB2B191DBAA6B5008A2B51 /* Debug */,
+				3EDB2B1A1DBAA6B5008A2B51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EDB2AF11DBAA6B5008A2B51 /* Project object */;
+}

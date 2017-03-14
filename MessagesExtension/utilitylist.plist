@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Pictures</key>
+	<array>
+		<string>sticker1</string>
+		<string>sticker2</string>
+		<string>sticker3</string>
+		<string>sticker4</string>
+		<string>sticker5</string>
+		<string>sticker6</string>
+		<string>sticker7</string>
+		<string>sticker8</string>
+		<string>sticker9</string>
+		<string>sticker10</string>
+		<string>sticker11</string>
+		<string>sticker12</string>
+		<string>sticker13</string>
+		<string>sticker14</string>
+		<string>sticker15</string>
+		<string>sticker16</string>
+		<string>sticker17</string>
+		<string>sticker18</string>
+		<string>sticker19</string>
+		<string>sticker20</string>
+		<string>sticker21</string>
+		<string>sticker22</string>
+		<string>sticker23</string>
+		<string>sticker24</string>
+		<string>sticker25</string>
+		<string>sticker26</string>
+		<string>sticker27</string>
+		<string>sticker28</string>
+		<string>sticker29</string>
+		<string>sticker30</string>
+		<string>sticker31</string>
+		<string>sticker32</string>
+	</array>
+	<key>Gifs</key>
+	<array>
+		<string>sticker_gif1</string>
+		<string>sticker_gif2</string>
+		<string>sticker_gif3</string>
+		<string>sticker_gif4</string>
+		<string>sticker_gif5</string>
+		<string>sticker_gif6</string>
+		<string>sticker_gif7</string>
+		<string>sticker_gif8</string>
+	</array>
+</dict>
+</plist>
